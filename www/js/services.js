@@ -75,7 +75,7 @@
     	getIcons: function()
       {
         // return $http.get('http://wwww.segramedia.com/assets/ionicmemory/icons.json').then(function(response) {
-      	return $http.get('js/icons.json').then(function(response) {
+      	return $http.get('js/photos.json').then(function(response) {
           return response.data;
       	});
       }

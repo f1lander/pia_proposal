@@ -6,12 +6,13 @@
 			<div class="flipper">
 				<div class="front">
 			 		<button class="button button-custom active {{'button-'+settings.theme}}">
-						<i class="icon ion-ionic"></i>
+						<i class="icon ion-heart"></i>
 					</button>
 				</div>
 				<div class="back">
-			 		<button class="button button-custom {{'button-'+settings.theme}}">
-						<i class="icon" ng-class="tile.title"></i>
+			 		<button class="button button-custom {{'button-'+settings.theme}} custom-button">
+						<!--<i class="icon" ng-class="tile.title"></i>-->
+						<img src="./img/{{tile.title}}" style="width: 100%; height: 100%;"></img>
 					</button>
 				</div>
 			</div>
